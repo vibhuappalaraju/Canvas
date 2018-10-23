@@ -14,6 +14,7 @@
 		97648A01217E7E5D005BEE05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 976489FF217E7E5D005BEE05 /* LaunchScreen.storyboard */; };
 		97648A0C217E7E5D005BEE05 /* CanvasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97648A0B217E7E5D005BEE05 /* CanvasTests.swift */; };
 		97648A17217E7E5D005BEE05 /* CanvasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97648A16217E7E5D005BEE05 /* CanvasUITests.swift */; };
+		97648A25217E7F21005BEE05 /* CanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97648A24217E7F21005BEE05 /* CanvasViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		97648A12217E7E5D005BEE05 /* CanvasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanvasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		97648A16217E7E5D005BEE05 /* CanvasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasUITests.swift; sourceTree = "<group>"; };
 		97648A18217E7E5D005BEE05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97648A24217E7F21005BEE05 /* CanvasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,10 +100,11 @@
 			isa = PBXGroup;
 			children = (
 				976489F6217E7E57005BEE05 /* AppDelegate.swift */,
-				976489F8217E7E57005BEE05 /* ViewController.swift */,
+				97648A24217E7F21005BEE05 /* CanvasViewController.swift */,
 				976489FA217E7E57005BEE05 /* Main.storyboard */,
 				976489FD217E7E5D005BEE05 /* Assets.xcassets */,
 				976489FF217E7E5D005BEE05 /* LaunchScreen.storyboard */,
+				976489F8217E7E57005BEE05 /* ViewController.swift */,
 				97648A02217E7E5D005BEE05 /* Info.plist */,
 			);
 			path = Canvas;
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				976489F9217E7E57005BEE05 /* ViewController.swift in Sources */,
+				97648A25217E7F21005BEE05 /* CanvasViewController.swift in Sources */,
 				976489F7217E7E57005BEE05 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
